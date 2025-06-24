@@ -1,2 +1,6 @@
 numpy==2.3.0
 gymnasium==1.1.1
+torch==2.7.1
+matplotlib==3.10.3
+pandas==2.3.0
+seaborn==0.13.2
