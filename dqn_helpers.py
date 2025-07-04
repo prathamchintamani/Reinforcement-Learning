@@ -41,3 +41,8 @@ class DQN(nn.Module):
 
     def forward(self, x):
         return self.output(x)
+    
+def one_hot_encode(state_idx, num_states):
+    one_hot = np.zeros(num_states, dtype=np.float32)
+    one_hot[state_idx] = 1.0
+    return one_hot
